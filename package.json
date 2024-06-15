@@ -1,0 +1,40 @@
+{
+  "name": "slt-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@rainbow-me/rainbowkit": "^2.1.2",
+    "@react-three/drei": "^9.106.0",
+    "@react-three/fiber": "^8.16.8",
+    "@tanstack/react-query": "^5.40.1",
+    "axios": "^1.7.2",
+    "framer-motion": "^11.2.10",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.23.1",
+    "three": "^0.165.0",
+    "viem": "2.x",
+    "wagmi": "^2.9.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.165.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  }
+}
